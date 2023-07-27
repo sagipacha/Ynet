@@ -1,0 +1,76 @@
+body {
+    background-color: white;
+    font-family: 'NarkisBlock';
+    direction: rtl;
+    height: 750px;
+}
+
+#banner {
+    height: 100px;
+    width: 200px;
+    border-width: 3px;
+    position: relative;
+    right: 1000px;
+    padding: 15px;
+    z-index: -1;
+    display: block;
+}
+
+#img1 {
+    height: 200px;
+    width: 900px;
+    left: 50px;
+    position: absolute;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#img2 {
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    right: 650px;
+    top: 250px;
+    display: inline;
+}
+
+.rightside {
+    margin-right: 40px;
+    top: 180px;
+    display: inline;
+    position: relative;
+    height: -10px;
+    width: -15px;
+}
+
+.leftside {
+    left: -600px;
+    top: 180px;
+    display: inline;
+    position: relative;
+}
+
+nav {
+    overflow: hidden;
+    top: 0px;
+    background-color: rgb(222, 26, 26);
+    font-family: 'NarkisBlock';
+    text-decoration-color: white;
+    text-align: center;
+    height: 40px;
+}
+
+nav a {
+    color: #f0e9e9;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+nav a:hover {
+    background-color: rgb(153, 194, 194)D;
+    color: white;
+    font-weight: bold;
+}

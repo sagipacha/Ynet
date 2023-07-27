@@ -1,8 +1,15 @@
+html {
+    direction: rtl;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: white;
     font-family: 'NarkisBlock';
-    direction: rtl;
     height: 750px;
+    width: 80%;
 }
 
 #banner {
@@ -19,7 +26,7 @@ body {
 #img1 {
     height: 200px;
     width: 900px;
-    left: 50px;
+    left: 180px;
     position: absolute;
     display: block;
     margin-bottom: 30px;
@@ -35,8 +42,8 @@ body {
 }
 
 .rightside {
-    margin-right: 40px;
-    top: 180px;
+    margin-right: -10px;
+    top: 155px;
     display: inline;
     position: relative;
     height: -10px;
@@ -44,25 +51,26 @@ body {
 }
 
 .leftside {
-    left: -600px;
-    top: 180px;
+    left: -430px;
+    top: 160px;
     display: inline;
     position: relative;
 }
 
 nav {
     overflow: hidden;
-    top: 0px;
     background-color: rgb(222, 26, 26);
     font-family: 'NarkisBlock';
     text-decoration-color: white;
     text-align: center;
-    height: 40px;
+    height: 30px;
+    margin-top: 190px;
+    font-weight: bold;
 }
 
 nav a {
     color: #f0e9e9;
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
     margin-right: 15px;
     margin-left: 15px;
@@ -73,4 +81,87 @@ nav a:hover {
     background-color: rgb(153, 194, 194)D;
     color: white;
     font-weight: bold;
+}
+
+table {
+    height: 103px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.para {
+    height: 500px;
+    width: 500px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.pic {
+    position: absolute;
+    width: 600px;
+    height: 315px;
+    top: 600px;
+    left: 150px;
+}
+
+.Ad2 {
+    position: absolute;
+    width: 555px;
+    height: 530px;
+    top: 940px;
+}
+
+.Ad3 {
+    position: absolute;
+    width: 80px;
+    height: 140px;
+    top: 700px;
+    left: 0px;
+}
+
+.Ad4 {
+    position: absolute;
+    width: 120px;
+    height: 500px;
+    top: 1700px;
+    right: 0px;
+}
+
+.para2 {
+    position: absolute;
+    border-style: dashed;
+    width: 589px;
+    left: 152px;
+    top: 940px;
+    background-color: rgb(222, 26, 26);
+}
+
+.para3 {
+    position: absolute;
+    border-style: dashed;
+    width: 589px;
+    left: 152px;
+    top: 1080px;
+    background-color: rgb(56, 28, 164);
+
+}
+
+.para4 {
+    position: absolute;
+    border-style: dashed;
+    width: 589px;
+    left: 152px;
+    top: 1213px;
+    background-color: rgb(222, 26, 26);
+}
+
+.para5 {
+    position: absolute;
+    border-style: dashed;
+    width: 589px;
+    left: 152px;
+    top: 1347px;
 }

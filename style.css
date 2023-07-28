@@ -242,3 +242,162 @@ table {
     font-size: 17px;
     font-weight: bold;
 }
+
+#rightside2 {
+    position: relative;
+    top: 130px;
+    width: 176px;
+    height: 110px;
+    padding: 4px;
+    right: -4px;
+}
+
+#leftside2 {
+    position: relative;
+    top: 130px;
+    width: 188px;
+    height: 110px;
+    padding: 4px;
+    left: -9px;
+}
+
+.one {
+    position: absolute;
+    left: 554px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.two {
+    position: absolute;
+    left: 340px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.three {
+    position: absolute;
+    left: 150px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.four {
+    position: absolute;
+    left: 750px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.five {
+    position: absolute;
+    left: 950px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.six {
+    position: absolute;
+    left: 1130px;
+    width: 183px;
+    height: 100px;
+    top: 1655px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#Ad5 {
+    position: absolute;
+    width: 582px;
+    height: 504px;
+    top: 1760px;
+    left: 160px;
+}
+
+.News {
+    position: relative;
+    width: 553px;
+    height: 30px;
+    top: 120px;
+    left: -2px;
+    background-color: rgb(4, 4, 173);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#pic12 {
+    position: relative;
+    top: 130px;
+    width: 188px;
+    height: 110px;
+    padding: 4px;
+    left: 4px;
+}
+
+#pic13 {
+    position: relative;
+    top: 250px;
+    width: 192px;
+    height: 110px;
+    padding: 4px;
+    left: 205px;
+}
+
+
+.para6 {
+    position: relative;
+    top: -15px;
+    width: 380px;
+    height: 110px;
+    padding: 4px;
+    right: 195px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#pic15 {
+    position: relative;
+    top: 10px;
+    width: 600px;
+    height: 90px;
+    padding: 4px;
+    right: -30px;
+}
+
+.para7 {
+    position: relative;
+    top: -10px;
+    width: 385px;
+    height: 110px;
+    padding: 4px;
+    right: 195px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#pic16 {
+    position: relative;
+    top: 130px;
+    width: 500px;
+    height: 90px;
+    padding: 4px;
+    left: 630px;
+}
